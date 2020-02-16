@@ -1,0 +1,95 @@
+2020-02-16 15:13:25,336 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-02-16 15:13:25,393 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\Apache Software Fundation\JMeter\bin\user.properties
+2020-02-16 15:13:25,393 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\Apache Software Fundation\JMeter\bin\system.properties
+2020-02-16 15:13:25,396 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: Version 5.2.1
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: java.version=13.0.2
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: os.name=Windows Server 2016
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: os.arch=amd64
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: os.version=10.0
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: file.encoding=GBK
+2020-02-16 15:13:25,397 INFO o.a.j.JMeter: java.awt.headless=true
+2020-02-16 15:13:25,398 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-02-16 15:13:25,398 INFO o.a.j.JMeter: Available Processors =2
+2020-02-16 15:13:25,409 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-02-16 15:13:25,410 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-02-16 15:13:25,410 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\Apache Software Fundation\JMeter
+2020-02-16 15:13:25,410 INFO o.a.j.JMeter: user.dir  =C:\sales_jmeter
+2020-02-16 15:13:25,411 INFO o.a.j.JMeter: PWD       =C:\sales_jmeter
+2020-02-16 15:13:25,421 INFO o.a.j.JMeter: IP: 192.168.100.41 Name: WIN-3M16I69LKRB FullName: WIN-3M16I69LKRB
+2020-02-16 15:13:25,431 INFO o.a.j.s.FileServer: Default base='C:\sales_jmeter'
+2020-02-16 15:13:25,435 INFO o.a.j.s.FileServer: Set new base='C:\sales_jmeter'
+2020-02-16 15:13:25,680 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-02-16 15:13:25,701 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-02-16 15:13:25,707 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-02-16 15:13:25,716 INFO o.a.j.s.SaveService: Loading file: C:\sales_jmeter\reset_data.jmx
+2020-02-16 15:13:25,858 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-02-16 15:13:25,872 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-02-16 15:13:25,892 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-02-16 15:13:25,892 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-02-16 15:13:25,904 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-02-16 15:13:25,904 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-02-16 15:13:26,462 INFO o.a.j.JMeter: Running test (1581837206462)
+2020-02-16 15:13:26,493 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : clear record
+2020-02-16 15:13:26,493 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear record.
+2020-02-16 15:13:26,493 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-02-16 15:13:26,493 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-02-16 15:13:26,499 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-02-16 15:13:26,499 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear record to finish before starting next group
+2020-02-16 15:13:26,503 INFO o.a.j.t.JMeterThread: Thread started: clear record 1-1
+2020-02-16 15:13:26,507 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-02-16 15:13:26,507 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-02-16 15:13:26,507 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-02-16 15:13:26,507 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-02-16 15:13:26,856 INFO o.a.j.t.JMeterThread: Thread is done: clear record 1-1
+2020-02-16 15:13:26,856 INFO o.a.j.t.JMeterThread: Thread finished: clear record 1-1
+2020-02-16 15:13:26,857 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : clear product
+2020-02-16 15:13:26,857 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear product.
+2020-02-16 15:13:26,857 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-02-16 15:13:26,857 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2020-02-16 15:13:26,858 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2020-02-16 15:13:26,858 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear product to finish before starting next group
+2020-02-16 15:13:26,860 INFO o.a.j.t.JMeterThread: Thread started: clear product 2-1
+2020-02-16 15:13:26,938 INFO o.a.j.t.JMeterThread: Thread is done: clear product 2-1
+2020-02-16 15:13:26,938 INFO o.a.j.t.JMeterThread: Thread finished: clear product 2-1
+2020-02-16 15:13:26,940 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : clear employee
+2020-02-16 15:13:26,940 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear employee.
+2020-02-16 15:13:26,940 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-02-16 15:13:26,940 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2020-02-16 15:13:26,941 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2020-02-16 15:13:26,941 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear employee to finish before starting next group
+2020-02-16 15:13:26,942 INFO o.a.j.t.JMeterThread: Thread started: clear employee 3-1
+2020-02-16 15:13:27,028 INFO o.a.j.t.JMeterThread: Thread is done: clear employee 3-1
+2020-02-16 15:13:27,029 INFO o.a.j.t.JMeterThread: Thread finished: clear employee 3-1
+2020-02-16 15:13:27,030 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : insert into employee
+2020-02-16 15:13:27,030 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into employee.
+2020-02-16 15:13:27,030 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-02-16 15:13:27,030 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2020-02-16 15:13:27,032 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2020-02-16 15:13:27,032 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into employee to finish before starting next group
+2020-02-16 15:13:27,033 INFO o.a.j.t.JMeterThread: Thread started: insert into employee 4-1
+2020-02-16 15:13:28,454 INFO o.a.j.t.JMeterThread: Thread is done: insert into employee 4-1
+2020-02-16 15:13:28,454 INFO o.a.j.t.JMeterThread: Thread finished: insert into employee 4-1
+2020-02-16 15:13:28,455 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : insert into product
+2020-02-16 15:13:28,455 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into product.
+2020-02-16 15:13:28,455 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-02-16 15:13:28,455 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=1 delayedStart=false
+2020-02-16 15:13:28,456 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2020-02-16 15:13:28,456 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into product to finish before starting next group
+2020-02-16 15:13:28,456 INFO o.a.j.t.JMeterThread: Thread started: insert into product 5-1
+2020-02-16 15:13:29,366 INFO o.a.j.t.JMeterThread: Thread is done: insert into product 5-1
+2020-02-16 15:13:29,366 INFO o.a.j.t.JMeterThread: Thread finished: insert into product 5-1
+2020-02-16 15:13:29,366 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : insert into record
+2020-02-16 15:13:29,366 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into record.
+2020-02-16 15:13:29,366 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-02-16 15:13:29,366 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2020-02-16 15:13:29,367 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2020-02-16 15:13:29,367 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-02-16 15:13:29,368 INFO o.a.j.t.JMeterThread: Thread started: insert into record 6-1
+2020-02-16 15:13:30,002 INFO o.a.j.r.Summariser: summary +   1305 in 00:00:04 =  368.9/s Avg:     2 Min:     1 Max:   319 Err:     5 (0.38%) Active: 1 Started: 6 Finished: 5
+2020-02-16 15:13:32,295 INFO o.a.j.t.JMeterThread: Thread is done: insert into record 6-1
+2020-02-16 15:13:32,296 INFO o.a.j.t.JMeterThread: Thread finished: insert into record 6-1
+2020-02-16 15:13:32,296 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-02-16 15:13:32,322 INFO o.a.j.r.Summariser: summary +   1206 in 00:00:02 =  519.4/s Avg:     1 Min:     0 Max:     7 Err:     0 (0.00%) Active: 0 Started: 6 Finished: 6
+2020-02-16 15:13:32,326 INFO o.a.j.r.Summariser: summary =   2511 in 00:00:06 =  428.3/s Avg:     2 Min:     0 Max:   319 Err:     5 (0.20%)
